@@ -1,0 +1,10 @@
+{
+  "name": "Url_Shortener",
+  "private": false,
+  "version": "1.0.0",
+  "description": "shortens long urls",
+  "main": "index.js",
+  "repository": "https://github.com/EKivutha/ruby-url-shortener.git",
+  "author": "EKivutha",
+  "license": "MIT"
+}

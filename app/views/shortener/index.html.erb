@@ -1,0 +1,10 @@
+<%= form_with model: @shortener  do |form| %>
+
+  <div class="field">
+    <%= form.label :long %>
+    <%= form.text_field :long, class: "block border border-grey-light w-full p-3 rounded mb-4"  %>
+  </div>
+
+    <%= form.submit "Shorten", class: "w-full text-center py-3 rounded bg-indigo-600 text-white hover:bg-green-dark focus:outline-none" %>
+<% end %>
+
